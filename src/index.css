@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* Konfigurasi Palet Emerald Night */
+  --color-em-bg: #050505;
+  --color-em-accent: #10b981;
+  --color-em-secondary: #34d399;
+  --color-em-text: #f0fdf4;
+  --color-em-muted: #525252;
+  
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  background-color: var(--color-em-bg);
+  color: var(--color-em-text);
+  font-family: var(--font-poppins);
+}
+
+/* Efek Cahaya Hijau Neon */
+.emerald-spotlight {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% -20%, rgba(16, 185, 129, 0.1), transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Scrollbar Custom Emerald */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #064e3b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
