@@ -25,7 +25,7 @@ export default function Pendidikan() {
     },
     {
       tahun: "2008 — 2014",
-      jenjang: "Sekolah Menengah Pertama",
+      jenjang: "Sekolah Dasar",
       nama: "SD Negeri 25 Manado",
       jurusan: "",
       status: "Lulus"
