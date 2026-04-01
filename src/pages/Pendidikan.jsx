@@ -10,16 +10,23 @@ export default function Pendidikan() {
       status: "Mahasiswa Aktif"
     },
     {
-      tahun: "2021 — 2024",
+      tahun: "2017 — 2020",
       jenjang: "Sekolah Menengah Kejuruan",
       nama: "SMK Negeri 2 Manado", 
       jurusan: "Otomotif",
       status: "Lulus"
     },
     {
-      tahun: "2018 — 2021",
+      tahun: "2014 — 2017",
       jenjang: "Sekolah Menengah Pertama",
       nama: "SMP Negeri 3 Manado",
+      jurusan: "",
+      status: "Lulus"
+    },
+    {
+      tahun: "2008 — 2014",
+      jenjang: "Sekolah Menengah Pertama",
+      nama: "SD Negeri 25 Manado",
       jurusan: "",
       status: "Lulus"
     }

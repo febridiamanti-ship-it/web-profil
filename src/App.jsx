@@ -2,12 +2,12 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { AnimatePresence, motion } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Biodata from './pages/Biodata';
-import Portofolio from './pages/Portofolio';
+import Portofolio from './pages/Certificate';
 import Galeri from './pages/Galeri';
 import Pendidikan from './pages/Pendidikan';
 import Kontak from './pages/Kontak';
 
-// 1. Kita buat pembungkus animasi universal untuk semua halaman
+// 1.animasi universal untuk semua halaman
 const PageTransition = ({ children }) => {
   return (
     <motion.div

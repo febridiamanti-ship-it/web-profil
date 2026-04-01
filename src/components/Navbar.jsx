@@ -6,7 +6,7 @@ export default function Navbar() {
     { name: 'Home', path: '/' },
     { name: 'Gallery', path: '/galeri' },
     { name: 'Education', path: '/pendidikan' },
-    { name: 'Project', path: '/portofolio' },
+    { name: 'Certificate', path: '/portofolio' },
     { name: 'Contact', path: '/kontak' },
   ];
 
